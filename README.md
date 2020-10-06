@@ -99,7 +99,6 @@
 &nbsp;
 ## Datos Generales
 
-&nbsp;
 ### En está primera parte debe ingresar sus datos personales:
 ### ***Nombre***: Nombre completo.
 ### ***Perfil***: Carrera profesional o ultimo grado de estudios.
