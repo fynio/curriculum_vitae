@@ -255,7 +255,6 @@
 
 &nbsp;
 ## Redes Sociales
-&nbsp;
 ### En esta sección necesita un icono, una url y un title. 
 ### En icono deberan ingresar un icono de [Font-Awesome](https://fontawesome.com/icons?d=gallery). 
 ### En url deben ingresar la url de su red social.
@@ -270,4 +269,4 @@
     },
 ```
 
-  
+## Si configuró todo correctamente deberá ver una página parecida a esta => [Ver Curriculum](https://distracted-hamilton-2c2349.netlify.app/).
