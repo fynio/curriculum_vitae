@@ -1,4 +1,4 @@
-# Curriculum Vitae hecho con el framework svelte
+# Curriculum Vitae hecho con el framework Svelte
 
 ### Esta diseñado para que pueden utilizarlo y modificar el archivo json para que ingresen sus datos personales.
 
