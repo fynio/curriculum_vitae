@@ -243,7 +243,7 @@
 
 ## Skills y Software
 &nbsp;
-### En esta sección pide un porcentaje solo permiete ingresar del 1-10 donde deberán ingresar el porcentaje de manejo del Software o del Skill, pueden la cantidad de skills o software que necesiten
+### En esta sección pide un porcentaje solo permiete ingresar del 1-10 donde deberán ingresar el porcentaje de manejo del Software o del Skill, pueden la cantidad de skills o software que necesiten.
 &nbsp;
 
 ```json
@@ -257,9 +257,9 @@
 ## Redes Sociales
 &nbsp;
 ### En esta sección necesita un icono, una url y un title. 
-### En icono deberan ingresar un icono de [Font-Awesome](https://fontawesome.com/icons?d=gallery) 
-### En url deben ingresar la url de su red social
-### En title es el titulo de la red social esto solo para que salga una descripción de la red social.
+### En icono deberan ingresar un icono de [Font-Awesome](https://fontawesome.com/icons?d=gallery). 
+### En url deben ingresar la url de su red social.
+### En title es el título de la red social esto solo para que salga una descripción de la red social.
 &nbsp;
 
 ```json
