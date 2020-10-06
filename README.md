@@ -10,13 +10,13 @@
 
 ## Fotografía
 
-### Para modificar la fotografía ingresen a la carpeta public/images/foto.jpeg
+### Para modificar la fotografía ingresen a la carpeta ***public/images/foto.jpeg***
 
 &nbsp;
 
-## Datos Personales
+## Datos Personales  
 
-### Para ingresar sus datos personales, lo único que tienen que hacer es modificar la constante Data que se encuentra en la carpeta src/App.svelte
+### Para ingresar sus datos personales, lo único que tienen que hacer es modificar la constante Data que se encuentra en la carpeta ***src/App.svelte***
 
 &nbsp;
 
@@ -27,7 +27,7 @@
         name: "Rodrigo Garcia Trejo",
         perfil: "Programador Web Fullstack",
         descripcion:
-          "Programador creativo y analítico, capaz de realizar aplicativos eficientes y eficaces, acostumbrado a trabajar bajo presión y capaz de resolver problemas a través del uso de la tecnología web.",
+          "lorem ",
         fecha_nacimiento: "22-10-1989",
         estado: "Actopan Hidalgo, México",
         email: "rodrigogarciatrejo89@gmail.com",
@@ -45,11 +45,6 @@
             url: "https://twitter.com/Rodrigtoficial",
             title: "Twitter",
           },
-          {
-            icono: "fab fa-github",
-            url: "https://github.com/fynio",
-            title: "github",
-          },
         ],
 
         experiencia: [
@@ -61,24 +56,6 @@
               "Crear una página web en Asp.net con conexión a una base de datos hecha en SQL Server utilizando Ajax donde implemente bootstrap, CSS, JavaScript y gráficas para un Cubo OLAP que se pretende implementar en el departamento de Dirección de Planeación y Evaluación del sistema Dif Hidalgo",
             tecnologia:
               "SQL Server, Boostrap, CSS, jS, JQuery, ASP.net con IIS",
-          },
-          {
-            lugar: "Subsecretaría de Inversiones y Productividad Sectorial",
-            cargo: "Programador FullStack",
-            fecha: "Octubre - Diciembre 2016",
-            descripcion:
-              "Crear página web para atraer inversiónes al estado de Hidalgo",
-            tecnologia:
-              "Boostrap, CSS, JS, JQuery, MySQL en un servidor tipo LAMP",
-          },
-          {
-            lugar: "Subsecretaría de Fomento Económico",
-            cargo: "Programador FullStack",
-            fecha: "Mayo 2018 - Actualidad",
-            descripcion:
-              "Crear diferentes Plataformas comó Mi Primer Empleo, Consume Hidalgo, CRM Empresarial, Expofinanciamiento",
-            tecnologia:
-              "React, Vue, Angular, PHP, Boostrap, CSS, JS, JQuery, MySQL, Postgres",
           },
         ],
         educacion: [
@@ -103,86 +80,6 @@
             nombre: "Jquery",
             porcentaje: 9,
           },
-
-          {
-            nombre: "Php",
-            porcentaje: 9,
-          },
-
-          {
-            nombre: "React",
-            porcentaje: 8,
-          },
-
-          {
-            nombre: "Vue",
-            porcentaje: 8,
-          },
-
-          {
-            nombre: "Angular",
-            porcentaje: 7,
-          },
-
-          {
-            nombre: "Django",
-            porcentaje: 6,
-          },
-
-          {
-            nombre: "NodeJs",
-            porcentaje: 8,
-          },
-
-          {
-            nombre: "Svelte",
-            porcentaje: 6,
-          },
-
-          {
-            nombre: "TypeScript",
-            porcentaje: 6,
-          },
-
-          {
-            nombre: "Css",
-            porcentaje: 9,
-          },
-
-          {
-            nombre: "Sass",
-            porcentaje: 8,
-          },
-
-          {
-            nombre: "HTML",
-            porcentaje: 9,
-          },
-
-          {
-            nombre: "Bootstrap",
-            porcentaje: 9,
-          },
-
-          {
-            nombre: "Materialize",
-            porcentaje: 9,
-          },
-
-          {
-            nombre: "SemanticUI",
-            porcentaje: 9,
-          },
-
-          {
-            nombre: "Java",
-            porcentaje: 7,
-          },
-
-          {
-            nombre: "Laravel",
-            porcentaje: 0,
-          },
         ],
 
         skills: [
@@ -194,56 +91,16 @@
             nombre: "Sencilles",
             porcentaje: 9,
           },
-
-          {
-            nombre: "Honestidad",
-            porcentaje: 10,
-          },
-
-          {
-            nombre: "Franqueza",
-            porcentaje: 10,
-          },
-
-          {
-            nombre: "Trabajo en Equipo",
-            porcentaje: 10,
-          },
-
-          {
-            nombre: "Amabilidad",
-            porcentaje: 10,
-          },
-
-          {
-            nombre: "Creatividad",
-            porcentaje: 10,
-          },
-
-          {
-            nombre: "Dedicación",
-            porcentaje: 10,
-          },
-
-          {
-            nombre: "Resolución de Problemas",
-            porcentaje: 10,
-          },
-
-          {
-            nombre: "Colaboración",
-            porcentaje: 10,
-          },
         ],
       },
     ],
   };
 ```
 
-
+&nbsp;
 ## Skills y Software
 &nbsp;
-### En esta sección pide un porcentaje solo permiete ingresar del 1-10 donde deberán ingresar el porcentaje de manejo del Software o del Skill, pueden la cantidad de skills o software que necesiten.
+### En esta sección necesitas ingresar un porcentaje solo debes ingresar un valor entre 1-10 el cual representa su nivel en el manejo del Software o del Skills, Puede ingresar tantos elementos de Skills y Software necesite.
 &nbsp;
 
 ```json
@@ -256,9 +113,9 @@
 &nbsp;
 ## Redes Sociales
 ### En esta sección necesita un icono, una url y un title. 
-### En icono deberan ingresar un icono de [Font-Awesome](https://fontawesome.com/icons?d=gallery). 
-### En url deben ingresar la url de su red social.
-### En title es el título de la red social esto solo para que salga una descripción de la red social.
+### Icono: deberán ingresar el nombre del icono los cuales podrás elegir en el siguiente link [Font-Awesome](https://fontawesome.com/icons?d=gallery), por ejemplo: "fab fa-twitter" . 
+### Url deben ingresar el link de su red social, ejemplo: "https://github.com/fynio". 
+### Title, es el atributo del enlace, donde podrás ingresar una pequeña descripción sobre el enlace.
 &nbsp;
 
 ```json
@@ -268,5 +125,8 @@
         title: "github",
     },
 ```
+&nbsp;
+## Si configuró todo correctamente, deberá ver una página similar a esta => [Ver Curriculum](https://distracted-hamilton-2c2349.netlify.app/).
 
-## Si configuró todo correctamente deberá ver una página parecida a esta => [Ver Curriculum](https://distracted-hamilton-2c2349.netlify.app/).
+&nbsp;
+### ¡¡Muchas gracias por su atencion!!
