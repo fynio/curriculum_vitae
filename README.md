@@ -3,14 +3,21 @@
 ### Esta diseñado para que pueden utilizarlo y modificar el archivo json para que ingresen sus datos personales.
 
 &nbsp;
-### Tambien pueden cambiar la imagen que se encuentra en el archivo public/images
+
+## Opciones
 
 &nbsp;
-### Para poder ingresar sus datos personales, lo único que tienen que hacer, es modificar el siguiente const tipo json que se encuentra en src/App.svelte 
+
+## Fotografía
+
+### Para modificar la fotografía ingresen a la carpeta public/images/foto.jpeg
 
 &nbsp;
 
-### En la opción de porcentaje solo pueden poner hasta el número 10 para que salgan las estrellas 
+## Datos Personales
+
+### Para ingresar sus datos personales, lo único que tienen que hacer es modificar la constante Data que se encuentra en la carpeta src/App.svelte
+
 &nbsp;
 
 ```
@@ -232,3 +239,35 @@
     ],
   };
 ```
+
+
+## Skills y Software
+&nbsp;
+### En esta sección pide un porcentaje solo permiete ingresar del 1-10 donde deberán ingresar el porcentaje de manejo del Software o del Skill, pueden la cantidad de skills o software que necesiten
+&nbsp;
+
+```json
+    {
+        nombre: "TypeScript",
+        porcentaje: 6,
+    },
+```
+
+&nbsp;
+## Redes Sociales
+&nbsp;
+### En esta sección pide url, title y una url. 
+### En icono deberan ingresar un icono de [Font-Awesome](https://fontawesome.com/icons?d=gallery) 
+### En url deben ingresar la url de su red social
+### En title es el titulo de la red social esto solo para que salga una descripción de la red social.
+&nbsp;
+
+```json
+    {
+        icono: "fab fa-github",
+        url: "https://github.com/fynio",
+        title: "github",
+    },
+```
+
+  
