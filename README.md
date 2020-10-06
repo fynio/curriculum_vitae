@@ -1,22 +1,18 @@
 # Curriculum Vitae hecho con el framework Svelte
 
-### Esta diseñado para que pueden utilizarlo y modificar el archivo json para que ingresen sus datos personales.
-
-&nbsp;
-
-## Opciones
+### Este repositorio lo comparto para que puedas crear tu curriculum vitae de una manera muy sencilla.
 
 &nbsp;
 
 ## Fotografía
 
-### Para modificar la fotografía ingresen a la carpeta ***public/images/foto.jpeg***
+### Para modificar la fotografía ingresa a la carpeta ***public/images*** y remplaza la imagen ***foto.jpeg*** por tu fotografía.
 
 &nbsp;
 
 ## Datos Personales  
 
-### Para ingresar sus datos personales, lo único que tienen que hacer es modificar la constante Data que se encuentra en la carpeta ***src/App.svelte***
+### Para ingresar tus datos personales, lo único que tienen que hacer es modificar la constante Data que se encuentra en la carpeta ***src/App.svelte***, la cual es un objeto tipo JSON y está compuesto de la siguiente manera.
 
 &nbsp;
 
@@ -27,7 +23,7 @@
         name: "Rodrigo Garcia Trejo",
         perfil: "Programador Web Fullstack",
         descripcion:
-          "lorem ",
+          "Programador creativo y analítico, capaz de realizar aplicativos eficientes y eficaces, acostumbrado a trabajar bajo presión y capaz de resolver problemas a través del uso de la tecnología web.",
         fecha_nacimiento: "22-10-1989",
         estado: "Actopan Hidalgo, México",
         email: "rodrigogarciatrejo89@gmail.com",
@@ -97,6 +93,23 @@
   };
 ```
 
+
+
+
+&nbsp;
+## Datos Generales
+
+&nbsp;
+### En está primera parte debe ingresar sus datos personales:
+### ***Nombre***: Nombre completo.
+### ***Perfil***: Carrera profesional o ultimo grado de estudios.
+### ***Descripción***: Describe tu perfil profesional, ejemplo: Programador FullStack.
+### ***Estado***: Estado al que perteneces.
+### ***Teléfono***.
+### ***Email***.
+### ***Página Web***.
+
+&nbsp;
 &nbsp;
 ## Skills y Software
 &nbsp;
@@ -113,9 +126,9 @@
 &nbsp;
 ## Redes Sociales
 ### En esta sección necesita un icono, una url y un title. 
-### Icono: deberán ingresar el nombre del icono los cuales podrás elegir en el siguiente link [Font-Awesome](https://fontawesome.com/icons?d=gallery), por ejemplo: "fab fa-twitter" . 
-### Url deben ingresar el link de su red social, ejemplo: "https://github.com/fynio". 
-### Title, es el atributo del enlace, donde podrás ingresar una pequeña descripción sobre el enlace.
+### Icono: ingresar el nombre del icono, el cual podrás elegir en el siguiente link [Font-Awesome](https://fontawesome.com/icons?d=gallery) y colocar el nombre de la clase, por ejemplo: para el icono de twiiter "fab fa-twitter" . 
+### Url: ingresar el link de su red social, ejemplo: "https://github.com/fynio". 
+### Title: ingresar una pequeña descripción sobre el enlace.
 &nbsp;
 
 ```json

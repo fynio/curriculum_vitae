@@ -4,7 +4,7 @@
   const Data = {
     persona: [
       {
-        name: "Rodrigo Garcia Trejo",
+        nombre: "Rodrigo Garcia Trejo",
         perfil: "Programador Web Fullstack",
         descripcion:
           "Programador creativo y analítico, capaz de realizar aplicativos eficientes y eficaces, acostumbrado a trabajar bajo presión y capaz de resolver problemas a través del uso de la tecnología web.",
@@ -279,7 +279,7 @@
 
           <!-- Aqui va el nombre -->
           <div class="nombre">
-            {Data.persona[0].name}
+            {Data.persona[0].nombre}
           </div>
 
           <!-- Aqui va el puesto -->
