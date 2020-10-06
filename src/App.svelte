@@ -9,34 +9,29 @@
         descripcion:
           "Programador creativo y analítico, capaz de realizar aplicativos eficientes y eficaces, acostumbrado a trabajar bajo presión y capaz de resolver problemas a través del uso de la tecnología web.",
         fecha_nacimiento: "22-10-1989",
-
         estado: "Actopan Hidalgo, México",
         email: "rodrigogarciatrejo89@gmail.com",
         telefono: "7721065676",
         pagina_web: "rodrigogarciatrejo89.com.mx",
-        
-        redes_sociales:[
+        redes_sociales: [
           {
-            icono:"fab fa-facebook",
-            url:"https://www.facebook.com/rodrigo.garciatrejo.965",
-            title:"Facebook"
+            icono: "fab fa-facebook",
+            url: "https://www.facebook.com/rodrigo.garciatrejo.965",
+            title: "Facebook",
           },
-          
+
           {
-            icono:"fab fa-twitter",
-            url:"https://twitter.com/Rodrigtoficial",
-            title:"Twitter"
-          }
-          ,
+            icono: "fab fa-twitter",
+            url: "https://twitter.com/Rodrigtoficial",
+            title: "Twitter",
+          },
           {
-            icono:"fab fa-github",
-            url:"https://github.com/fynio",
-            title:"github"
-          }
+            icono: "fab fa-github",
+            url: "https://github.com/fynio",
+            title: "github",
+          },
         ],
 
-
-        
         experiencia: [
           {
             lugar: "Sistema Nacional DIF",
@@ -179,7 +174,7 @@
             nombre: "Sencilles",
             porcentaje: 9,
           },
-          
+
           {
             nombre: "Honestidad",
             porcentaje: 10,
@@ -189,13 +184,12 @@
             nombre: "Franqueza",
             porcentaje: 10,
           },
-          
+
           {
             nombre: "Trabajo en Equipo",
             porcentaje: 10,
           },
 
-          
           {
             nombre: "Amabilidad",
             porcentaje: 10,
@@ -211,7 +205,6 @@
             porcentaje: 10,
           },
 
-          
           {
             nombre: "Resolución de Problemas",
             porcentaje: 10,
@@ -221,7 +214,6 @@
             nombre: "Colaboración",
             porcentaje: 10,
           },
-
         ],
       },
     ],
@@ -298,68 +290,45 @@
           <div class="descripcion">{Data.persona[0].descripcion}</div>
 
           <div class="minicontenedor">
-              <div class="titulo">
-
-                Fecha de Nacimiento
-              </div>
-              <div class="descripcion">{Data.persona[0].fecha_nacimiento}</div>
-    
-
+            <div class="titulo">Fecha de Nacimiento</div>
+            <div class="descripcion">{Data.persona[0].fecha_nacimiento}</div>
           </div>
 
           <div class="minicontenedor">
-            <div class="titulo">
-              Dirección
-            </div>
+            <div class="titulo">Dirección</div>
             <div class="descripcion">{Data.persona[0].estado}</div>
           </div>
-        
 
-          
           <div class="minicontenedor">
-            <div class="titulo">
-              Email
-            </div>
+            <div class="titulo">Email</div>
             <div class="descripcion">{Data.persona[0].email}</div>
           </div>
 
-           
           <div class="minicontenedor">
-            <div class="titulo">
-              Teléfono
-            </div>
+            <div class="titulo">Teléfono</div>
             <div class="descripcion">{Data.persona[0].telefono}</div>
           </div>
 
-          
           <div class="minicontenedor">
-            <div class="titulo">
-              Página Web
-            </div>
+            <div class="titulo">Página Web</div>
             <div class="descripcion">{Data.persona[0].pagina_web}</div>
           </div>
 
-          <div>
-            <br>
-            <br>
-            <br>
-          </div>
-          <div class="divisor">
-            Redes Sociales
-          </div>
-
+          <div><br /> <br /> <br /></div>
+          <div class="divisor">Redes Sociales</div>
 
           {#each Data.persona[0].redes_sociales as red_social}
-          <div class="redes_sociales">
-            <div>
-              <a href="{red_social.url}" target="_black" title={red_social.title}>
-                <i class="{red_social.icono}"></i>
-              </a>
+            <div class="redes_sociales">
+              <div>
+                <a
+                  href={red_social.url}
+                  target="_black"
+                  title={red_social.title}>
+                  <i class={red_social.icono} />
+                </a>
+              </div>
             </div>
-          </div>
-       
           {/each}
-
 
           <div class="wrapper">
             <div class="left triangle" />
