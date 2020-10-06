@@ -111,7 +111,6 @@
 &nbsp;
 &nbsp;
 ## Skills y Software
-&nbsp;
 ### En esta sección necesitas ingresar un porcentaje solo debes ingresar un valor entre 1-10 el cual representa su nivel en el manejo del Software o del Skills, Puede ingresar tantos elementos de Skills y Software necesite.
 &nbsp;
 
