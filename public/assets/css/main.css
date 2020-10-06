@@ -1,0 +1,401 @@
+@font-face {
+  font-family: Fuente-Black;
+  src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Fuente-BlackItalic;
+  src: url(../fonts/Roboto-BlackItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Fuente-BoldItalic;
+  src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Light;
+  src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Fuente-LightItalic;
+  src: url(../fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Medium;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Fuente-MediumItalic;
+  src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Fuente-RegularItalic;
+  src: url(../fonts/Roboto-RegularItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Thin;
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: Fuente-ThinItalic;
+  src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+.fuente_black {
+  font-family: Fuente-Black;
+}
+
+.fuente_black_italic {
+  font-family: Fuente-BlackItalic;
+}
+
+.fuente_bold {
+  font-family: Fuente-Bold;
+}
+
+.fuente_bold_italic {
+  font-family: Fuente-BoldItalic;
+}
+
+.fuente_light {
+  font-family: Fuente-Light;
+}
+
+.fuente_light_italic {
+  font-family: Fuente-LightItalic;
+}
+
+.fuente_medium_italic {
+  font-family: Fuente-MediumItalic;
+}
+
+.fuente_regular {
+  font-family: Fuente-Regular;
+}
+
+.fuente_regular_italic {
+  font-family: Fuente-RegularItalic;
+}
+
+.fuente_thin {
+  font-family: Fuente-Thin;
+}
+
+.fuente_thin_italic {
+  font-family: Fuente-ThinItalic;
+}
+
+.container_cv {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.container_cv > .container_body {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1030;
+  box-shadow: 0px 0px 10px black;
+}
+.container_cv > .container_body > .imagen_header {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  width: 100%;
+}
+.container_cv > .container_body > .imagen_header > img {
+  width: 80%;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .imagen_header > img {
+    width: 100%;
+  }
+}
+.container_cv > .container_body > .dividido {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 80px;
+  border-bottom: 30px solid purple;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.container_cv > .container_body > .dividido > .centrado {
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 500px;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .centrado {
+    order: 1;
+  }
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .centrado {
+    width: 80%;
+  }
+}
+.container_cv > .container_body > .dividido > .centrado > .contenedor_imagen > .imagen {
+  margin: auto;
+  margin-top: -150px;
+  width: 220px;
+  border: solid 10px white;
+  box-shadow: 0px 0px 15px black, 0px 0px 25px black;
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .centrado > .contenedor_imagen > .imagen {
+    max-width: 130px;
+  }
+}
+.container_cv > .container_body > .dividido > .centrado > .contenedor_imagen > .imagen > img {
+  width: 100%;
+}
+.container_cv > .container_body > .dividido > .centrado > .nombre {
+  margin-top: 50px;
+  font-family: Fuente-Bold;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.container_cv > .container_body > .dividido > .centrado > .puesto {
+  color: white;
+  text-align: center;
+  font-family: Fuente-MediumItalic;
+}
+.container_cv > .container_body > .dividido > .centrado > .descripcion {
+  margin-top: 20px;
+  color: grey;
+  text-align: center;
+}
+.container_cv > .container_body > .dividido > .centrado > .minicontenedor {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.container_cv > .container_body > .dividido > .centrado > .minicontenedor > .titulo {
+  padding-top: 10px;
+  color: white;
+  font-family: Fuente-Bold;
+}
+.container_cv > .container_body > .dividido > .centrado > .minicontenedor > .descripcion {
+  color: hotpink;
+}
+.container_cv > .container_body > .dividido > .centrado > .redes_sociales {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container_cv > .container_body > .dividido > .centrado > .redes_sociales > div {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container_cv > .container_body > .dividido > .centrado > .redes_sociales > div > a {
+  color: white;
+  font-size: 40px;
+}
+.container_cv > .container_body > .dividido > .centrado > .redes_sociales > div > a:hover {
+  cursor: pointer;
+  transition: 0.6s;
+  color: hotpink;
+}
+.container_cv > .container_body > .dividido > .izq, .container_cv > .container_body > .dividido > .der {
+  margin: auto;
+  margin-top: 0;
+  width: 30%;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .izq, .container_cv > .container_body > .dividido > .der {
+    order: 3;
+    width: 80%;
+    margin-top: 100px !important;
+  }
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor > .titulo_principal, .container_cv > .container_body > .dividido > .der > .contenedor > .titulo_principal {
+  width: 100%;
+  border-top: dotted 3px grey;
+  border-bottom: dotted 3px grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 36px;
+  font-family: Fuente-Light;
+  color: white;
+  text-align: center;
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia {
+  min-height: 240px;
+  background-color: transparent;
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px dotted white;
+  }
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .lugar, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .lugar {
+  font-family: Fuente-Bold;
+  color: darkslateblue;
+  font-size: 40px;
+  line-height: 1;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .lugar, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .lugar {
+    text-align: center;
+  }
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .puesto, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .puesto {
+  font-family: Fuente-Bold;
+  color: white;
+  font-size: 25px;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .puesto, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .puesto {
+    text-align: center;
+  }
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .fecha, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .fecha {
+  font-family: Fuente-Regular;
+  color: gray;
+  font-size: 14px;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .fecha, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .fecha {
+    text-align: center;
+  }
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .descripcion, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .descripcion {
+  margin-top: 15px;
+  font-family: Fuente-Regular;
+  color: white;
+  font-size: 13px;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .descripcion, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .descripcion {
+    text-align: center;
+  }
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .tecnologia, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .tecnologia {
+  margin-top: 4px;
+  font-family: Fuente-Regular;
+  color: hotpink;
+  font-size: 13px;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia > .tecnologia, .container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia > .tecnologia {
+    text-align: center;
+  }
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor_valores, .container_cv > .container_body > .dividido > .der > .contenedor_valores {
+  padding-bottom: 20px;
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor_valores > .titulo_principal, .container_cv > .container_body > .dividido > .der > .contenedor_valores > .titulo_principal {
+  width: 100%;
+  border-top: dotted 3px grey;
+  border-bottom: dotted 3px grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 36px;
+  font-family: Fuente-Light;
+  color: white;
+  text-align: center;
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor_valores > .elemento, .container_cv > .container_body > .dividido > .der > .contenedor_valores > .elemento {
+  padding-top: 20px;
+  font-family: Fuente-Regular;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 13px;
+}
+@media all and (max-width: 900px) {
+  .container_cv > .container_body > .dividido > .izq > .contenedor_valores > .elemento, .container_cv > .container_body > .dividido > .der > .contenedor_valores > .elemento {
+    text-align: left;
+  }
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor_valores > .elemento > .nombre, .container_cv > .container_body > .dividido > .der > .contenedor_valores > .elemento > .nombre {
+  padding-right: 10px;
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor_valores > .elemento > .contenedor_estrellas, .container_cv > .container_body > .dividido > .der > .contenedor_valores > .elemento > .contenedor_estrellas {
+  line-height: 1;
+  display: flex;
+  width: 100%;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+.container_cv > .container_body > .dividido > .izq > .contenedor > .contenedor_experiencia {
+  text-align: right;
+}
+.container_cv > .container_body > .dividido > .der > .contenedor > .contenedor_experiencia {
+  text-align: left;
+}
+
+.divisor {
+  width: 100%;
+  border-top: dotted 3px grey;
+  border-bottom: dotted 3px grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 36px;
+  font-family: Fuente-Light;
+  color: white;
+  text-align: center;
+}
+
+body {
+  font-family: Fuente-Regular;
+  background-color: grey;
+  background-image: url(../images/fondo_colores_chida.jpg);
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=main.css.map */

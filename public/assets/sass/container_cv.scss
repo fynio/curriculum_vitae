@@ -1,0 +1,352 @@
+.container_cv {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  min-height: 100vh;
+
+  & > .container_body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1200px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(31, 16, 48, 1);
+    box-shadow: 0px 0px 10px black;
+
+    & > .imagen_header {
+      max-width: 1200px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      align-content: flex-start;
+      width: 100%;
+
+      & > img {
+        width: 80%;
+
+                       
+        @media all and (max-width:900px)
+        {
+            width: 100%;
+        }
+
+
+      }
+    }
+
+    & > .dividido {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: flex-start;
+      position: relative;
+      padding-bottom: 80px;
+      border-bottom: 30px solid purple;
+
+      @media all and (max-width:900px)
+      {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      & > .centrado { 
+          
+    
+
+        @media all and (max-width:900px)
+        {
+            order:1;
+        }
+  
+
+        padding-left: 12px;
+        padding-right: 12px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 30%;
+        // background-color: rgb(41,58,76);
+        background-color: rgb(0, 0, 0, 0.5);
+        min-height: 500px;
+
+                       
+        @media all and (max-width:900px)
+        {
+            width: 80%;
+        }
+
+
+        & > .contenedor_imagen {
+          & > .imagen {
+            margin: auto;
+            margin-top: -150px;
+            width: 220px;
+            border: solid 10px white;
+            box-shadow: 0px 0px 15px black, 0px 0px 25px black;
+            border-radius: 18px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+               
+            @media all and (max-width:900px)
+            {
+                max-width: 130px;
+            }
+
+
+            & > img {
+              width: 100%;
+            }
+          }
+        }
+
+        & > .nombre {
+          margin-top: 50px;
+          font-family: Fuente-Bold;
+          color: white;
+          text-align: center;
+          font-size: 50px;
+        }
+
+        & > .puesto {
+          color: $color_blanco;
+          text-align: center;
+          font-family: Fuente-MediumItalic;
+        }
+
+        & > .descripcion {
+          margin-top: 20px;
+          color: grey;
+          text-align: center;
+        }
+
+        & > .minicontenedor {
+          margin-top: 10px;
+          display: flex;
+
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+
+          & > .titulo {
+            padding-top: 10px;
+            color: white;
+            font-family: Fuente-Bold;
+          }
+
+          & > .descripcion {
+            color: hotpink;
+          }
+        }
+
+
+        &> .redes_sociales{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            &>div{
+                width: 80px;
+                height: 80px;
+                margin: 10px;
+
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                &>a{
+                    color:white;
+                    font-size: 40px;
+                    &:hover{
+                        cursor: pointer;
+                        transition: .6s;
+                        color: hotpink;
+                    }
+                }
+
+             
+            }
+
+        }
+      }
+
+      & > .izq,
+      & > .der {
+ 
+     
+
+        margin: auto;
+        margin-top: 0;
+        width: 30%;
+
+        @media all and (max-width:900px)
+        { order:3;
+            width: 80%;
+            margin-top:100px !important;
+        }
+
+
+        & > .contenedor {
+          & > .titulo_principal {
+            width: 100%;
+            border-top: dotted 3px grey;
+            border-bottom: dotted 3px grey;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 36px;
+            font-family: Fuente-Light;
+            color: $color_blanco;
+            text-align: center;
+          }
+
+          & > .contenedor_experiencia {
+            min-height: 240px;
+            background-color: transparent;
+            text-align: right;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+
+
+            @media all and (max-width:900px)
+            {     text-align: center;
+                padding-bottom: 20px;
+                border-bottom: 3px dotted white;
+            }
+
+
+            & > .lugar {
+              font-family: Fuente-Bold;
+              color: darkslateblue;
+              font-size: 40px;
+              line-height: 1;
+              @media all and (max-width:900px)
+              {     text-align: center;
+              }
+  
+  
+            }
+
+            & > .puesto {
+              font-family: Fuente-Bold;
+              color: white;
+              font-size: 25px;
+              @media all and (max-width:900px)
+              {     text-align: center;
+              }
+
+            }
+
+            & > .fecha {
+              font-family: Fuente-Regular;
+              color: gray;
+              font-size: 14px;
+              @media all and (max-width:900px)
+              {     text-align: center;
+              }
+
+            }
+
+            & > .descripcion {
+              margin-top: 15px;
+              font-family: Fuente-Regular;
+              color: white;
+              font-size: 13px;
+              @media all and (max-width:900px)
+              {     text-align: center;
+              }
+            }
+
+            & > .tecnologia {
+              margin-top: 4px;
+              font-family: Fuente-Regular;
+              color: hotpink;
+              font-size: 13px;
+              @media all and (max-width:900px)
+              {     text-align: center;
+              }
+
+            }
+          }
+        }
+
+        & > .contenedor_valores {
+          padding-bottom: 20px;
+
+          & > .titulo_principal {
+            width: 100%;
+            border-top: dotted 3px grey;
+            border-bottom: dotted 3px grey;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 36px;
+            font-family: Fuente-Light;
+            color: $color_blanco;
+            text-align: center;
+          }
+
+          & > .elemento {
+            padding-top: 20px;
+            font-family: Fuente-Regular;
+            color: $color_blanco;
+            text-align: center;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: flex-start;
+            font-size: 13px;
+
+            @media all and (max-width:900px)
+            {     text-align: left;
+            }
+
+
+            & > .nombre {
+              padding-right: 10px;
+            }
+
+            & > .contenedor_estrellas {
+              line-height: 1;
+              display: flex;
+              width: 100%;
+              align-self: flex-end;
+              justify-content: flex-end;
+            }
+          }
+        }
+      }
+
+      & > .izq {
+        & > .contenedor {
+          & > .contenedor_experiencia {
+            text-align: right;
+          }
+        }
+      }
+
+      & > .der {
+        & > .contenedor {
+          & > .contenedor_experiencia {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

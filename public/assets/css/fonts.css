@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Fuente-Black;
+  src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Fuente-BlackItalic;
+  src: url(../fonts/Roboto-BlackItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Fuente-BoldItalic;
+  src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Light;
+  src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Fuente-LightItalic;
+  src: url(../fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Medium;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Fuente-MediumItalic;
+  src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Fuente-RegularItalic;
+  src: url(../fonts/Roboto-RegularItalic.ttf);
+}
+@font-face {
+  font-family: Fuente-Thin;
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: Fuente-ThinItalic;
+  src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+.fuente_black {
+  font-family: Fuente-Black;
+}
+
+.fuente_black_italic {
+  font-family: Fuente-BlackItalic;
+}
+
+.fuente_bold {
+  font-family: Fuente-Bold;
+}
+
+.fuente_bold_italic {
+  font-family: Fuente-BoldItalic;
+}
+
+.fuente_light {
+  font-family: Fuente-Light;
+}
+
+.fuente_light_italic {
+  font-family: Fuente-LightItalic;
+}
+
+.fuente_medium_italic {
+  font-family: Fuente-MediumItalic;
+}
+
+.fuente_regular {
+  font-family: Fuente-Regular;
+}
+
+.fuente_regular_italic {
+  font-family: Fuente-RegularItalic;
+}
+
+.fuente_thin {
+  font-family: Fuente-Thin;
+}
+
+.fuente_thin_italic {
+  font-family: Fuente-ThinItalic;
+}
+
+/*# sourceMappingURL=fonts.css.map */

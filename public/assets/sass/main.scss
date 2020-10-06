@@ -1,0 +1,26 @@
+
+@import "fonts";
+@import "variables";
+@import "container_cv";
+
+.divisor{
+    width: 100%;
+    border-top: dotted 3px grey;
+    border-bottom: dotted 3px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-family: Fuente-Light;
+    color: white;
+    text-align: center;
+}
+body{
+    font-family: Fuente-Regular;
+    background-color:grey;
+    background-image: url(../images/fondo_colores_chida.jpg);
+    background-attachment: fixed;
+}
+
+ 
+
+
