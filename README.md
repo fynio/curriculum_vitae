@@ -256,7 +256,7 @@
 &nbsp;
 ## Redes Sociales
 &nbsp;
-### En esta sección pide url, title y una url. 
+### En esta sección necesita un icono, una url y un title. 
 ### En icono deberan ingresar un icono de [Font-Awesome](https://fontawesome.com/icons?d=gallery) 
 ### En url deben ingresar la url de su red social
 ### En title es el titulo de la red social esto solo para que salga una descripción de la red social.
