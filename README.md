@@ -21,14 +21,14 @@
     persona: [
       {
         name: "Rodrigo Garcia Trejo",
-        perfil: "Programador Web Fullstack",
+        perfil: "Diseñador",
         descripcion:
           "Programador creativo y analítico, capaz de realizar aplicativos eficientes y eficaces, acostumbrado a trabajar bajo presión y capaz de resolver problemas a través del uso de la tecnología web.",
         fecha_nacimiento: "22-10-1989",
-        estado: "Actopan Hidalgo, México",
-        email: "rodrigogarciatrejo89@gmail.com",
-        telefono: "7721065676",
-        pagina_web: "rodrigogarciatrejo89.com.mx",
+        estado: "cali, Colombia",
+        email: "rodrigogarciatrejo@gmail.com",
+        telefono: "7",
+        pagina_web: "/",
         redes_sociales: [
           {
             icono: "fab fa-facebook",
@@ -45,20 +45,20 @@
 
         experiencia: [
           {
-            lugar: "Sistema Nacional DIF",
+            lugar: "Sistema Nacional",
             cargo: "Programador Técnico",
             fecha: "Febrero - Junio 2015",
             descripcion:
-              "Crear una página web en Asp.net con conexión a una base de datos hecha en SQL Server utilizando Ajax donde implemente bootstrap, CSS, JavaScript y gráficas para un Cubo OLAP que se pretende implementar en el departamento de Dirección de Planeación y Evaluación del sistema Dif Hidalgo",
+              "Crear una página web en Asp.net con conexión a una base de datos hecha en SQL Server utilizando Ajax donde implemente bootstrap, CSS, JavaScript y gráficas para un Cubo OLAP ",
             tecnologia:
               "SQL Server, Boostrap, CSS, jS, JQuery, ASP.net con IIS",
           },
         ],
         educacion: [
           {
-            lugar: "Universidad Autonoma del Estado de Hidalgo",
+            lugar: "L",
             cargo: "Licenciatura en Sistemas Computacionales",
-            fecha: "2009 - 2015",
+            fecha: "2020 - 2025",
           },
           {
             lugar: "Universidad de Cádiz",
